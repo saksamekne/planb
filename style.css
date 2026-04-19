@@ -1,0 +1,22 @@
+* {
+  font-family: Datatype;
+}
+
+.header-ul {
+  text-align: center;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-ul li a {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.active {
+  color: #ff0000 !important;
+}
